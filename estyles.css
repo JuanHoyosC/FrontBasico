@@ -7,16 +7,30 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
+/*---------------------------------------Clases compartidas---------------------------------------*/
+
+.float {
+    float:left;
+}
+
+.padding-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 /*---------------------------------------Header---------------------------------------*/
 .header {
     background-color: rgb(63, 73, 95);
     height: 50px;
     padding-top: 0.1px;
+    margin-bottom: 10px;
 }
 
 .lista {
     width: 80%;
     padding: 0;
+    margin: 0;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -39,4 +53,58 @@ body {
 
 .list:hover {
     background-color: rgba(50, 50, 50, 0.5);
+}
+/*---------------------------------------main---------------------------------------*/
+
+.main {
+    background-color: beige;
+    width: 70%;
+}
+
+.title {
+    font-size: 2rem;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    margin: 0px;
+}
+
+.container-img {
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    width: 100%;
+}
+
+/*---------------------------------------Aside---------------------------------------*/
+
+.container-img-2 {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside {
+    background-color: rgb(96, 94, 97);
+    color: white;
+    width: 30%;
+}
+
+
+/*---------------------------------------Footer---------------------------------------*/
+
+.footer {
+    background-color: rgb(63, 73, 95);
+    height: 150px;
+    clear: both;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.title-footer {
+    color: white;
 }
