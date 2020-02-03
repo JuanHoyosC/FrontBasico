@@ -1,0 +1,42 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/*---------------------------------------Header---------------------------------------*/
+.header {
+    background-color: rgb(63, 73, 95);
+    height: 50px;
+    padding-top: 0.1px;
+}
+
+.lista {
+    width: 80%;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.list {
+    display: inline-block;
+    height: 50px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.link-list {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.list:hover {
+    background-color: rgba(50, 50, 50, 0.5);
+}
